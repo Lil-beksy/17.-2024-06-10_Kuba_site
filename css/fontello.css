@@ -24,7 +24,6 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: never;
 
   display: inline-block;
   text-decoration: inherit;
@@ -60,12 +59,14 @@
   font-size: 3vw;
   float: left;
   margin-top: 0.01vw;
+  line-height: 2vw;
 } /* '' */
 .icon-mail:before {
   content: "\e802";
   font-size: 3vw;
   float: left;
-  margin-top: 0.1vw;
+  margin-top: 1vw;
+  line-height: 0.1vw;
 } /* '' */
 .icon-youtube-play:before {
   content: "\f16a";
@@ -87,3 +88,37 @@
   font-size: 6vw;
   margin-top: 1vw;
 } /* '' */
+@media only screen and (max-width: 900px) {
+  .icon-phone:before {
+    content: "\e800";
+    font-size: 6vw;
+    float: left;
+    margin-top: 1vw;
+  } /* '' */
+  .icon-mail:before {
+    content: "\e802";
+    font-size: 6vw;
+    float: left;
+    margin-top: 2vw;
+  } /* '' */
+  .icon-youtube-play:before {
+    content: "\f16a";
+    font-size: 12vw;
+    margin-top: 2vw;
+  } /* '' */
+  .icon-instagram:before {
+    content: "\f16d";
+    font-size: 12vw;
+    margin-top: 2vw;
+  } /* '' */
+  .icon-spotify:before {
+    content: "\f1bc";
+    font-size: 12vw;
+    margin-top: 2vw;
+  } /* '' */
+  .icon-facebook-squared:before {
+    content: "\f308";
+    font-size: 12vw;
+    margin-top: 2vw;
+  } /* '' */
+}
