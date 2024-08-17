@@ -1,0 +1,223 @@
+/*@media only screen and (max-width: 900px) */
+@media (orientation: portrait) {
+  :root {
+    --full-s: 90vw;
+    --size: 2.5;
+  }
+  h1 {
+    /*K U B E U S*/
+    margin-top: 10vw;
+    font-size: 22vw;
+    letter-spacing: 1vw;
+  }
+
+  h2 {
+    /*K U B A   M R O Z E K*/
+    margin-top: 0.1vw;
+    font-size: 5vw;
+    font-weight: 300;
+    letter-spacing: 4vw;
+  }
+
+  h3 {
+    margin-top: 0.1vw;
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 2vw;
+  }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0.1vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+
+  p {
+    margin-bottom: 2.5vw;
+    margin-top: 0.2vw;
+    font-size: 2vw;
+    font-weight: 300;
+  }
+
+  body {
+    width: 95vw;
+  }
+
+  .container {
+    width: 90vw;
+    gap: 2.5vw;
+    margin-top: 2vw;
+  }
+
+  header {
+    width: var(--full-s);
+    height: 30vw;
+  }
+
+  #description {
+    margin-top: 2vw;
+    width: 90vw;
+    height: 22vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+
+  #description p {
+    font-size: 2.39vw;
+  }
+
+  .graphic {
+    width: 87.5vw;
+    height: 87.5vw;
+    gap: 2.5vw;
+    margin-bottom: 1vw;
+  }
+
+  .pion {
+    gap: 2.5vw;
+  }
+
+  #photo1 {
+    width: 57.5vw;
+    height: var(--size) * 23vw;
+  }
+
+  #photo2 {
+    width: 57.5vw;
+    height: var(--size) * 11vw;
+  }
+
+  #logo {
+    width: var(--size) * 11vw;
+    height: var(--size) * 11vw;
+  }
+
+  #photo3 {
+    width: var(--size) * 11vw;
+    height: var(--size) * 23vw;
+  }
+
+  /*---------------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------------*/
+
+  .right {
+    width: 87.5vw;
+    gap: 2.5vw;
+  }
+  #okladka {
+    height: 24vw;
+    width: 24vw;
+    margin-right: 1.25vw;
+  }
+
+  /* The flip cd container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+  .flip-cd {
+    width: 55vw;
+    height: 25vw;
+    padding: 1.25vw;
+  }
+
+  @keyframes change {
+    from {
+      filter: drop-shadow(0px 0px 0.2vw rgba(0, 121, 78, 0.3));
+    }
+    50% {
+      color: rgba(0, 121, 78, 1);
+      filter: drop-shadow(0px 0px 1.2vw rgb(0, 121, 78));
+    }
+    to {
+      filter: drop-shadow(0px 0px 0.2vw rgba(0, 121, 78, 0.3));
+    }
+  }
+  #cta {
+    font-size: 1.8vw;
+    text-align: center;
+    margin-bottom: 1vw;
+  }
+  #claim {
+    font-size: 1.4vw;
+    text-align: center;
+    margin-bottom: 1.2vw;
+  }
+  #cursor {
+    width: 6vw;
+    height: auto;
+  }
+
+  /* Style the front side (fallback if image is missing) */
+  .flip-cd-front {
+    display: flex;
+  }
+
+  #sale {
+    font-size: 3vw;
+    border-radius: 2vw;
+    width: 40vw;
+    height: 6vw;
+  }
+
+  .m_kw {
+    width: 55vw;
+    height: 55vw;
+    padding: 1.25vw;
+
+    background-color: rgba(10, 10, 10, 0.8);
+    outline: 1px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.25s ease-in-out;
+  }
+
+  .m_kw:hover {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.2));
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .s_kw {
+    width: 25vw;
+    height: 25vw;
+    padding: 1.25vw;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(10, 10, 10, 0.8);
+    outline: 1px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25;
+  }
+
+  .s_kw:hover {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.2));
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  #quote p {
+    font-size: 2.5vw;
+  }
+
+  /*---------------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------------*/
+  .links {
+    width: 87.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 2.5vw;
+    margin-bottom: 2vw;
+  }
+
+  .rect_i {
+    width: 57.5vw;
+    height: 27.5vw;
+    padding: 0px;
+    vertical-align: middle;
+  }
+
+  .interactive {
+    margin-top: 4vw;
+    width: 57.5vw;
+    height: 24.1vw;
+    vertical-align: middle;
+  }
+}
